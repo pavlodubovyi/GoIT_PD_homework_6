@@ -4,13 +4,6 @@ import sys
 import sort_logic as parser
 from normalizer import normalize
 
-# Path("archives").mkdir(exist_ok=True)
-# Path("video").mkdir(exist_ok=True)
-# Path("audio").mkdir(exist_ok=True)
-# Path("documents").mkdir(exist_ok=True)
-# Path("images").mkdir(exist_ok=True)
-# Path("my_other").mkdir(exist_ok=True)
-
 
 def handle_video(filename: Path, video: Path) -> None:
     video.mkdir(exist_ok=True, parents=True)
